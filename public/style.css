@@ -1,6 +1,43 @@
-.open-para{
-    color: blue
+html {
+	overflow-y: scroll;
 }
-#Projects{
-    background-color: orange;
+
+.test {
+	min-height: 100%;
+	min width: 100%;
+
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background-color: grey;
+
+}
+
+.test-two {
+	min-height: 100%;
+	min width: 100%;
+
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+
+	background-color: blue;
+}
+
+.test-thr {
+	min-height: 100%;
+	min width: 100%;
+
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 200%;
+	left: 0;
+
+	background-color: white;
 }
