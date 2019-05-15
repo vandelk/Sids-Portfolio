@@ -2,7 +2,21 @@ html {
 	overflow-y: scroll;
 }
 
-.test {
+a:link {
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-right: 20px;
+    position: absolute;
+    right: 0;
+}
+
+
+.opening {
 	min-height: 100%;
 	min width: 100%;
 
@@ -11,33 +25,18 @@ html {
 	position: absolute;
 	top: 0;
 	left: 0;
+    z-index: -1;
 
 	background-color: grey;
-
 }
 
-.test-two {
-	min-height: 100%;
-	min width: 100%;
-
-	height: auto;
-	width: 100%;
-	position: absolute;
-	top: 100%;
-	left: 0;
-
-	background-color: blue;
+.open-para {
+    width: 200px;
 }
 
-.test-thr {
-	min-height: 100%;
-	min width: 100%;
-
-	height: auto;
-	width: 100%;
-	position: absolute;
-	top: 200%;
-	left: 0;
-
-	background-color: white;
+#sid-pic {
+    height: 150px;
+    width: 150px;
+    border: 6px solid black;
+    border-radius: 50%;
 }
