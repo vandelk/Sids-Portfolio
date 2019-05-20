@@ -34,7 +34,7 @@ a:visited {
 
 
 .background {
-	height: 940px; /*-141px*/
+	height: 1880px; /*-141px AND includes project section so doubled 940*/
     width: 1903px;
 
 	position: absolute;
@@ -83,6 +83,39 @@ a:visited {
     background: linear-gradient(to top, #F46B45 0%, #EEA849 100%);
 }
 
+.rectangle4 {
+    height: 4px;
+    width: 115px;
+    position: absolute;
+    top: 1220px;
+    left: 409px;
+
+    border-radius: 40px;
+    background: #EEA849;
+}
+
+.rectangle5 {
+    height: 4px;
+    width: 65px;
+    position: absolute;
+    top: 1610px;
+    left: 408px;
+
+    border-radius: 40px;
+    background: #EEA849;
+}
+
+.rectangle6 {
+    height: 4px;
+    width: 65px;
+    position: absolute;
+    top: 1610px;
+    left: 1000px;
+
+    border-radius: 40px;
+    background: #EEA849;
+}
+
 .open-para {
     font-family: Montserrat;
     color: black;
@@ -95,6 +128,60 @@ a:visited {
     position: absolute;
     top: 325px;
     left: 805px;
+}
+
+.p-title {
+    font-family: Montserrat;
+    font-weight: medium;
+    font-size: 44px;
+
+    position: absolute;
+    top: 1100px;
+    left: 406px;
+}
+
+.date-cig {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+
+    position: absolute;
+    top: 1610px;
+    left: 408px;
+}
+
+.para-cig {
+    font-family: Roboto;
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 19px;
+
+    width: 540px;
+    position: absolute;
+    top: 1650px;
+    left: 408px;
+}
+
+.date-waterloo {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+
+    position: absolute;
+    top: 1610px;
+    left: 1000px;
+}
+
+.para-waterloo {
+    font-family: Roboto;
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 19px;
+
+    width: 535px;
+    position: absolute;
+    top: 1650px;
+    left: 1000px;
 }
 
 #sid-pic {
@@ -123,6 +210,22 @@ a:visited {
     position: absolute;
     top: 800px;
     left: 407px;
+}
+
+#cigcycle {
+    height: 306px;
+    width: 545px;
+    position: absolute;
+    top: 1300px;
+    left: 400px;
+}
+
+#waterloo {
+    height: 306px;
+    width: 545px;
+    position: absolute;
+    top: 1300px;
+    left: 992px;
 }
 
 #Projects {
