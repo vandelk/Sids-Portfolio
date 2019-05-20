@@ -47,6 +47,18 @@ a:visited {
 
 }
 
+.back {
+    height: 940px; /*-141px AND includes project section so doubled 940*/
+    width: 1903px;
+
+    position: absolute;
+    top: 1880px;
+    left: 0;
+    z-index: -1;
+
+    background-color:#2E2E2E;
+}
+
 .rectangle1 {
     height: 6px;
     width: 150px;
@@ -114,6 +126,17 @@ a:visited {
 
     border-radius: 40px;
     background: #EEA849;
+}
+
+.rectangle7 {
+    height: 2px;
+    width: 65px;
+    position: absolute;
+    top: 2555px;
+    left: 400px;
+
+    border-radius: 40px;
+    background: #E52D27;
 }
 
 .open-para {
@@ -184,6 +207,64 @@ a:visited {
     left: 1000px;
 }
 
+.dev-para {
+    font-family: Montserrat;
+    font-size: 19px;
+    line-height: 30px;
+    color: white;
+
+    width: 1094px;
+    position: absolute;
+    top: 2000px;
+    left: 400px;
+}
+
+.dev-name {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 27px;
+    color: white;
+
+    position: absolute;
+    top: 2250px;
+    left: 765px;
+}
+
+.dev-desc {
+    font-family: Montserrat;
+    font-size: 19px;
+    line-height: 27px;
+    color: white;
+
+    position: absolute;
+    top: 2300px;
+    left: 765px;
+}
+
+.fun1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+    position: absolute;
+    top: 2500px;
+    left: 400px;
+}
+
+.fact1 {
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 24px;
+    color: white;
+
+    width: 1094px;
+    position: absolute;
+    top: 2560px;
+    left: 400px;
+}
+
 #sid-pic {
     height: 289px;
     width: 289px;
@@ -194,6 +275,18 @@ a:visited {
     border-radius: 50%;
     padding: 6px;
     background-image: linear-gradient(to bottom, #F46B45 0%, #EEA849 100%);
+}
+
+#ken-pic {
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    top: 2225px;
+    left: 525px;
+
+    border-radius: 50%;
+    padding: 6px;
+    background-image: linear-gradient(to bottom, #B31217 0%, #E52D27 100%);
 }
 
 #skyline {
@@ -226,6 +319,22 @@ a:visited {
     position: absolute;
     top: 1300px;
     left: 992px;
+}
+
+#linkedin {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 2360px;
+    left: 765px;
+}
+
+#link {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 2360px;
+    left: 800px;
 }
 
 #Projects {
