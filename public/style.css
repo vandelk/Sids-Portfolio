@@ -3,84 +3,160 @@ html {
 }
 
 a:link {
-    padding-left: 20px;
-    font-weight: bold;
+    padding-left: 22px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:visited {
-    color: white;
+    color: black;
 }
 
-
+.nav-underline {
+    height: 3px;
+    width: 57px;
+    position: absolute;
+    top: 65px;
+    left: 23px;
+    background: linear-gradient(to top, #F46B45 0%, #EEA849 100%);
+}
 
 .nav {
     padding-top: 40px;
     padding-right: 20px;
     position: absolute;
-    right: 20%;
+    left: 1125px;
+
+    font-family: Montserrat;
+    font-weight: medium;
+    font-size: 19px;
 }
 
 
-.opening {
-	min-height: 100%;
-	min width: 100%;
+.background {
+	height: 940px; /*-141px*/
+    width: 1903px;
 
-	height: auto;
-	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
     z-index: -1;
 
-	background-color: black;
+	background-color: #000000;
+    opacity: 0.03;
+
+}
+
+.rectangle1 {
+    height: 6px;
+    width: 150px;
+    position: absolute;
+    top: 720px;
+    left: 1320px;
+    z-index: 1;
+
+    border-radius: 40px;
+    background: linear-gradient(to top, #F46B45 0%, #EEA849 100%);
+}
+
+.rectangle2 {
+    height: 6px;
+    width: 310px;
+    position: absolute;
+    top: 785px;
+    left: 1050px;
+    z-index: 1;
+
+    border-radius: 40px;
+    background: linear-gradient(to top, #F46B45 0%, #EEA849 100%);
+}
+
+.rectangle3 {
+    height: 6px;
+    width: 550px;
+    position: absolute;
+    top: 820px;
+    left: 1190px;
+    z-index: 1;
+
+    border-radius: 40px;
+    background: linear-gradient(to top, #F46B45 0%, #EEA849 100%);
 }
 
 .open-para {
-    color: white;
-    font-size: 28px;
+    font-family: Montserrat;
+    color: black;
+    font-size: 21px;
+    line-height: 30px;
 
-    width: 800px;
+    height: 64px;
+
+    width: 723px;
     position: absolute;
-    top: 34%;
-    left: 40%;
+    top: 325px;
+    left: 805px;
 }
 
 #sid-pic {
-    height: 300px;
-    width: 300px;
+    height: 289px;
+    width: 289px;
     position: absolute;
-    bottom: 38%;
-    left: 21%;
-    border: 6px solid white;
+    top: 269px;
+    left: 406px;
+
     border-radius: 50%;
+    padding: 6px;
+    background-image: linear-gradient(to bottom, #F46B45 0%, #EEA849 100%);
+}
+
+#skyline {
+    height: 383px;
+    width: 1198px;
+    position: absolute;
+    top: 555px;
+    left: 700px;
+    z-index: 0;
+}
+
+#arrow {
+
+    position: absolute;
+    top: 800px;
+    left: 407px;
 }
 
 #Projects {
-    background-color: black;
-    border: 3px solid orange;
+    background: linear-gradient(to top, #F46B45 0%, #EEA849 100%);
+    border: none;
+    border-radius: 40px;
 
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 1px;
     color: white;
-    font-size: 24px;
+    font-size: 19px;
 
     height: 50px;
     width: 160px;
     position: absolute;
-    top: 47%;
-    left: 40%;
+    top: 440px;
+    left: 800px;
 }
 
 #Resume {
-    background-color: black;
-    border: 3px solid orange;
+    background-color: transparent;
+    border: 4px solid #F08C47;
+    border-radius: 40px;
 
-    color: white;
-    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: #F08D47;
 
     height: 50px;
     width: 160px;
     position: absolute;
-    top: 47%;
-    left: 50%;
+    top: 440px;
+    left: 976px;
 }
