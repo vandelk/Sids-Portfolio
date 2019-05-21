@@ -1,0 +1,47 @@
+html {
+	overflow-y: scroll;
+}
+
+a:link {
+    padding-left: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.nav-underline {
+    height: 3px;
+    width: 57px;
+    position: absolute;
+    top: 65px;
+    left: 109px;
+    background: linear-gradient(to top, #F46B45 0%, #EEA849 100%);
+}
+
+.nav {
+    padding-top: 40px;
+    padding-right: 20px;
+    position: absolute;
+    left: 1125px;
+
+    font-family: Montserrat;
+    font-weight: medium;
+    font-size: 19px;
+}
+
+.background {
+	height: 940px; /*-141px*/
+    width: 1903px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+    z-index: -1;
+
+	background-color: #000000;
+    opacity: 0.03;
+
+}
